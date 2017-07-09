@@ -1,0 +1,594 @@
+*{
+	margin: 0px;
+    padding: 0px;
+	font-size: 20px;
+	font-family: Times New
+  }
+body{
+	width: 960px; /*  */
+	margin: 0px auto;
+
+	}
+#dau{
+	width: 100%;
+	height: 250px;
+	
+	margin-bottom: 10px;
+}
+   #dau .logo{
+   	width: 30%;
+   	height: 150px;
+   	float:left;
+   	background-color: lightblue;
+   } 
+      #dau  .logo  img{
+      	width: 100%;
+      	height:100%;
+      }
+   #dau .dau-phai{
+   	width: 70%;
+   	height: 150px; 
+   	float:right;
+   }
+     #dau .dau-phai img{
+     	width: 100%;
+     	height: 100%; 
+
+     }
+   #dau .menu{
+   	width: 100%;
+   	height:50px;
+   	background-color: blue;
+   	float:left;
+  }
+     #dau .menu ul{
+         margin-left:40px; 
+         width:100%;
+         height: 100%;
+      }
+     #dau .menu li {
+         list-style-type:none;
+	     width:15%;
+	     float:left;
+	     margin-top: 15px;
+	     transition: 2s ease all; 
+		 text-align:center;
+		 list-style:none;
+		 text-decoration: none;
+
+	 }
+   #dau .timkiem{
+   	width: 100%;
+   	height: 50px;
+   	background-color: grey;
+   	float: left;
+   } 
+     #dau .timkiem .timkiem1{
+     	width: 45%;
+     	height: 100%;
+     	float:left;
+     	margin-top: 10px;
+     	margin-left: 2px;
+     }
+        #dau .timkem .timkiem1 text{
+       
+         width:25%;
+        }
+       
+     #dau .timkiem  .timkiem2 {
+      	width: 45%;
+      	height: 100%;
+        float:right;
+      	margin-top: 10px;
+      	margin-right:  10px;
+      }
+       #dau .timkiem .timkiem2 submit{
+        width: 25%;	
+        }
+
+#than{
+	width: 100%;
+	height: 1000px;
+	
+}
+     #than .trai{
+     	width: 200px;
+     	height:100%;
+     	float:left;
+     	margin-left: 5px;
+
+     } 
+          #than .trai .trai1{
+             width:100%;
+             height:30%;
+             
+             margin-top: 10px;
+             margin-right: 5px;
+             border:2px solid grey; 
+      }
+            #than .trai .trai1 .trai1a{
+              width: 100%;
+              height: 25%;
+              float:left;
+              background-color: blue;
+              margin-bottom: 1px;	
+            }
+              #than .trai .trai1 .trai1a p{
+              	padding: 20px 0px;
+
+              }
+            #than .trai .trai1 .trai1b{
+              width: 100%;
+              height: 25%;
+              float:left;
+              margin-bottom: 1px;
+              	
+            }
+                  #than .trai .trai1  .trai1b .trai1b1{
+                	width: 30%;
+                    height: 100%;
+                	
+                	float:left;
+
+                }
+                    #than .trai .trai1 .trai1b .trai1b1 img{
+                   	 width: 100%;
+                   	 height: 100%;
+                   }
+                 #than .trai .trai1 .trai1b .trai1b2{
+                	width: 70%;
+                    height: 100%;
+                	float:right;
+                }
+                   #than .trai .trai1 .trai1b .trai1b2 p{
+                   	 padding: 5px 5px;
+                   }
+
+            #than .trai .trai1  .trai1c{
+              width: 100%;
+              height: 25%;
+              float:left;
+              margin-bottom: 1px;	
+              
+            }
+                  #than .trai .trai1 .trai1c  .trai1c1{
+                	width: 30%;
+                    height: 100%;
+                	
+                	float:left;
+
+                }
+                    #than .trai .trai1 .trai1c .trai1c1 img{
+                   	 width: 100%;
+                   	 height: 100%;
+                   }
+                 #than .trai .trai1  .trai1c .trai1c2{
+                	width: 70%;
+                    height: 100%;
+                	
+                	float:right;
+
+                }
+            #than .trai .trai1 .trai1d{
+              width: 100%;
+              height: 25%;
+              float:left;
+             	
+            }
+                  #than .trai .trai1  .trai1d .trai1d1{
+                	width: 30%;
+                    height: 100%;
+                	
+                	float:left;
+
+                }
+                    #than .trai .trai1 .trai1d .trai1d1 img{
+                   	 width: 100%;
+                   	 height: 100%;
+                   }
+                 #than .trai .trai1  .trai1d  .trai1d2{
+                	width: 70%;
+                    height: 100%;
+                	
+                	float:right;
+
+                }
+          #than .trai  .trai2{
+          	 width:100%;
+          	 height:30%;
+             background-color: yellow; 
+              margin-top: 10px;
+             margin-bottom: 10px;
+             margin-right: 5px;
+             border:2px solid grey; 
+          }
+             #than .trai .trai2 .trai2a{
+             	width: 100%;
+             	height: 25%;
+             	background-color: blue;
+             }
+               #than .trai .trai2 .trai2a p{
+               	padding: 20px 0px;
+               }
+               #than .trai .trai2 .trai2a pre{
+                
+                padding:10px 5px 0px 5px; 
+            }
+          #than .trai  .trai3{
+          	 width: 100%;
+          	 height:30%;
+          	 background-color: pink;
+          	 margin-top:10px;
+          	 margin-bottom: 10px;
+          	 border:2px solid grey; 
+          	 margin-right: 5px;
+           }
+             #than .trai .trai3 img{
+             	width: 100%;
+             	height: 100%;
+             }
+     #than .giua{
+     	width: 530px;
+     	height:100%;
+     	float:left;
+     	margin-bottom: 5px;
+     	margin-left: 10px;
+        margin-right: 10px;
+        
+     }
+         #than .giua .giua1{
+             width:100%;
+             height:19%;
+             margin-bottom: 5px;
+             margin-top: 10px;
+             border:2px solid grey; 
+               }
+            #than .giua .giua1 .giua1a{
+            	width: 57%;
+            	height: 100%;
+            	float: left;
+            	margin-right: 2px;
+            } 
+               #than .giua .giua1 .giua1a img{
+            	width: 100%;
+            	height: 100%; }
+            #than .giua .giua1 .giua1b{
+            	width: 40%;
+            	height: 100%;
+            	float: right;
+            }  
+                #than .giua .giua1 .giua1b ul {
+               margin-left: 5px;
+                } 
+         #than .giua .giua2{
+         	 width: 100%;
+         	 height: 19%;
+         	 border:2px solid grey; 
+         	  } 
+         	   #than .giua .giua2 .giua2a{
+         	 width: 37%;
+         	 height: 100%;
+         	 background-color: red;
+         	 float: left;
+         	 margin-right: 5px; 
+         	  } 
+         	    #than .giua .giua2 .giua2a img{
+         	      width: 100%;
+         	      height: 100%;}
+         	  #than .giua .giua2 .giua2b{
+         	 width: 30%;
+         	 height: 100%;
+         	 float: left;
+         	 margin-right: 5px; 
+         	  } 
+         	    #than .giua .giua2 .giua2c{
+         	 width: 29%;
+         	 height: 100%;
+         	 float: left;
+         	 margin-right: 5px;
+         	 margin-left: 2px; 
+         	  } 
+         	       #than .giua .giua2 .giua2c li{
+         	       	padding: 5px;
+         	       }
+         #than .giua .giua3{
+         	  width: 100%;
+         	  height:19%;
+              border:2px solid grey; 
+         	  margin-top: 5px;
+         } 
+           #than .giua .giua3 .giua3a{
+         	  width: 37%;
+         	  height:100%;
+         	  float:left;
+         	  margin-right:2px; 
+         	} 
+         	    #than .giua .giua3 .giua3a img{
+         	       width: 100%;
+                   height:100%;
+                   float: left;
+         	} 
+         	#than .giua .giua3 .giua3b{
+         	  width: 60%;
+         	  height:100%;
+         	  float:right;
+         	}
+         	   #than .giua .giua3 .giua3b p{
+         	   	 padding: 20px;
+
+         	   }
+         #than .giua .giua4{
+         	  width: 100%;
+         	  height: 19%;
+              margin-top: 5px;
+              border:2px solid grey; 
+             
+         	} 
+         	  #than .giua .giua4 .giua4a {
+         	  width: 37%;
+         	  height:100%;
+         	  float:left;
+         	 
+         	} 
+         	     #than .giua .giua4 .giua4a img{
+         	       width: 100%;
+                   height:100%;
+                   float: left}
+         	#than .giua .giua4 .giua4b{
+         	  width: 60%;
+         	  height:100%;
+         	  float:right;
+         	}
+         	   #than .giua .giua4 .giua4b .giua4b1{
+         	  width: 60%;
+         	  height:100%;
+         	  float:left;
+         	}
+         	   #than .giua .giua4 .giua4b p{
+         	   	 padding: 20px;
+
+              }
+         #than .giua .giua5{
+         	  width: 100%;
+         	  height:19%;
+         	  margin-top: 5px;
+         	  margin-bottom:5px;
+         	  border:2px solid grey; 
+         }	
+             #than .giua .giua5 .giua5a {
+         	  width: 37%;
+         	  height:100%;
+         	  float:left;
+         	 
+         	} 
+         	     #than .giua .giua5 .giua5a img{
+         	       width: 100%;
+                   height:100%;
+                   float: left}
+         	#than .giua .giua5 .giua5b{
+         	  width: 60%;
+         	  height:100%;
+         	  float:right;
+         	}
+         	   #than .giua .giua5 .giua5b p{
+         	   	 padding: 20px;
+
+              }   
+     #than .phai{
+     	width: 200px;
+     	height:100%;
+     	float:right;
+     	margin-right: 5px;
+     }
+         #than .phai .phai1{
+             width:100%;
+             height:19%;
+             margin-bottom: 5px;  
+             margin-top: 10px; 
+             border:2px solid grey;      
+     
+               }
+             #than .phai .phai1 .phai1a{
+             	width: 100%;
+             	height: 25%;
+             	float: left;
+             	background-color: blue;
+         }  
+              #than .phai .phai1 .phai1a p{
+              	padding: 10px;
+              }
+              #than .phai .phai1 .phai1b{
+             	width: 100%;
+             	height: 25%;
+             	float: left;
+             	
+         }  
+              #than .phai .phai1 .phai1b input{
+              	
+              	margin-bottom: 2px;
+              	margin-top: 5px;
+              	margin-right: 5px;
+              	float: right;
+              }
+               
+              #than .phai .phai1 .phai1c{
+             	width: 100%;
+             	height: 25%;
+             	float: left;
+             
+         }  
+              #than .phai .phai1 .phai1c input{
+              	
+              	margin-bottom: 2px;
+              	margin-top: 5px;
+              	margin-right: 5px;
+              	float: right;
+              }
+              
+              #than .phai .phai1 .phai1d{
+             	width: 100%;
+             	height: 25%;
+             	float: left;
+             
+         }  
+               #than .phai .phai1 .phai1d input{
+               	margin-bottom: 2px;
+               	margin-right: 2px;
+               	float: right;
+               }
+         #than .phai .phai2{
+         	 width: 100%;
+         	 height: 19%;
+         	 margin-bottom: 5px;
+         	 border:2px solid grey; 
+         } 
+             #than .phai .phai2 .phai2a{
+             	width: 100%;
+             	height: 25%;
+             	float: left;
+             	background-color: blue;
+             	margin-bottom: 10px;
+             }
+              #than .phai .phai2 .phai2a p{
+              	padding: 10px;
+              }
+              #than .phai .phai2 .phai2b{
+             	width: 100%;
+             	height: 30%;
+             	float: left;
+             	margin-bottom: 10px;
+             }
+               #than .phai .phai2 .phai2c{
+             	width: 100%;
+             	height: 30%;
+             	float: left;
+             	margin-bottom: 10px;
+             }		
+         #than .phai .phai3{
+         	  width: 100%;
+         	  height:19%;
+         	  margin-bottom: 5px;
+         	  border:2px solid grey; 
+         } 
+             #than .phai .phai3 .phai3a{
+             	width: 100%;
+             	height: 25%;
+             	float: left;
+             	background-color: blue;
+             	margin-bottom: 10px;
+             }
+               #than .phai .phai3 .phai3a p{
+               	padding: 10px;
+               }
+             #than .phai .phai3 .phai3b{
+             	width: 100%;
+             	height: 40%;
+             	float: left;
+             	margin-bottom: 10px;
+             }
+             #than .phai .phai3 .phai3c{
+             	width: 100%;
+             	height: 25%;
+             	float: left;
+             	margin-bottom: 10px;
+             }	
+              #than .phai .phai3 .phai3c input{
+               	margin-bottom: 5px;
+               	margin-right: 5px;
+               	margin-top: 10px;
+               	float: right;
+               }	
+         #than .phai .phai4{
+         	  width: 100%;
+         	  height: 19%;
+              margin-bottom: 5px; 
+              border:2px solid grey;    
+         	 }
+         	 #than .phai .phai4 .phai4a{
+             	width: 100%;
+             	height: 25%;
+             	float: left;
+             	background-color: blue;
+             	margin-bottom: 10px;
+             } 
+                #than .phai .phai4 .phai4a p{
+                	padding: 1px;
+                }
+             #than .phai .phai4 .phai4b{
+             	width: 100%;
+             	height: 40%;
+             	float: left;
+             
+             	margin-bottom: 10px;
+             }
+              #than .phai .phai4 .phai4b .phai4b1{
+             	width: 30%;
+             	height: 100%;
+             	float: left;
+             	
+             }
+               #than .phai .phai4 .phai4b .phai4b1 img{
+             	width: 100%;
+             	height: 100%;
+             	float: left;
+             }
+              #than .phai .phai4 .phai4b .phai4b2{
+             	width: 70%;
+             	height: 100%;
+             	float: left;
+             }
+               #than .phai .phai4 .phai4b .phai4b p{
+               	padding: 10px;
+               }
+             #than .phai .phai4 .phai4c{
+             	width: 100%;
+             	height: 25%;
+             	float: left;
+             	background-color: green;
+             	margin-bottom: 10px;
+             }
+         #than .phai .phai5{
+         	  width: 100%;
+         	  height:19%;
+         	  margin-bottom: 5px;
+         	  margin-top: 15px;
+         	  border:2px solid grey; 
+        }	
+           #than .phai .phai5  .phai5a{
+              width: 100%;
+              height: 25%;
+              float:left;
+              
+              background-color: blue;
+          }
+            #than .phai .phai5  .phai5a p{
+            	padding: 10px;
+            }
+          #than .phai .phai5  .phai5b{
+              width: 100%;
+              height: 25%;
+              float:left;
+           	
+              }
+           #than .phai .phai5  .phai5c{
+              width: 100%;
+              height: 25%;
+              float:left;	
+              }
+            #than .phai .phai5  .phai5d{
+              width: 100%;
+              height: 25%;
+              float:left;
+                   	
+            }     	
+#cuoi{
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+	margin-top: 10px;
+	border:2px solid grey; 
+}
+  #cuoi p{
+  	padding: 2px;
+  	padding-left: 200px;
+  }

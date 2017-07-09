@@ -1,0 +1,443 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	max-width: 960px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+/* 	background-image: url(http://taochu.trangnhat.net/backgrounds/bgrnew18.gif); */
+}
+#header{
+	width: 100%;
+	
+}
+#header .logo{
+	width: 100%;
+	height: 200px;
+	background-color: #e7effc;
+}
+#header .logo img{
+	max-width: 100%;
+}
+#header .menu{
+	width: 100%;
+/* 	height: 40px; */
+	float:left;
+	background-color:#025269;
+}
+#header .menu ul{
+	width: 60%;
+	position: relative;/*thiết lập cho thẻ li cấp cha*/
+}
+#header .menu ul li{
+	width: 16%;
+	float: left;
+	list-style:none;
+	border-right: solid 1px #fff;
+}
+#header .menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;/*thiết lập thẻ a hiển thị theo hình */
+	padding: 7px;
+	
+}
+#header .menu ul li a:hover{
+	background-color: red;
+}
+#header .menu ul li>ul{ /*thiết lập cho các thẻ ul là con của li*/
+	position: absolute;/*thiết lạp hiển thi cấp 2 cho ul*/
+	width: 170px;
+	color:#fff;
+	background: #025269;
+	visibility: hidden;/*thiết lập mặc định ẩn cho menu cấp 2*/
+}
+#header .menu ul li>ul li{
+	/*thiết lập đường viền trên cho menu cấp 2*/
+	border-bottom: solid 1px #fff;
+}
+#header .menu ul li:hover ul{
+	visibility: visible;
+	display: block;
+}
+
+.search{
+	width: 100%;
+	height: 100%;
+	float:left;
+	border-bottom: solid 1px #007fff;
+	background-color: #ecf0f1;
+	margin-bottom: 20px;
+}
+.search input[type=text]{
+	width: 10%;
+	height: 15%;
+	float: left;
+	border-radius: 50px;
+	margin:10px;
+	padding: 0px 20px;
+}
+.search input[type=submit]{
+	height: 15%;
+	float: left;
+	border-radius: 50px;
+	margin-top:10px;
+	padding: 0px 10px;
+}
+#content{
+	width: 100%;
+	overflow: hidden;
+}
+#content .left{
+	width: 22%;
+	overflow: hidden;
+	float:left;
+	
+}
+#content .left-news{
+	border: solid 1px #aad4ff;
+	
+}
+#content .left-news h4{
+	color: #fff;
+	background-color: #005169;
+/* 	font-size: 20px;  */
+	padding: 5px 20px;
+		
+}
+#content .left-news p a{
+	color:  #005fbf;
+}
+#content  .left-news .item{
+	width: 100%;
+	margin: 10px 0px;
+	overflow: hidden;
+	padding: 0px 5px;
+}
+#content .item img{
+	width: 110px;
+	float: left;
+	padding: 0px 5px;
+}
+
+#content .item a{
+	text-decoration: none;
+}
+#content .left-news2{
+	/*padding: 10px;*/
+	margin-top: 20px;
+		border: solid 1px #aad4ff;;
+}
+#content .left-news2 h4{
+	color: #fff;
+	background-color: #005169;
+/* 	font-size: 20px;  */
+	padding: 5px 20px;
+		
+}
+#content .left-news2 p{
+	padding: 0px 10px;
+	color: #005fbf;
+}
+
+#content .center{
+	width: 55%;
+	overflow: hidden;
+	float:left;
+}
+#content .center h4{
+	color: #005fbf;
+	margin-left: 20px;
+}
+#content .top{
+	border: solid 1px ;
+	margin-left: 20px;
+}
+#content .top img{
+	width: 200px;
+	float:left;
+	padding: 5px 10px;
+}
+#content .center .top-right{
+	padding: 5px 0px;
+}
+#content .center ul{
+	width: 100%;
+	text-align: center;
+}
+#content .center ul li{
+	width: 20%;
+	float: left;
+	list-style-type: none;
+}
+#content .center ul li a{
+	text-decoration: none;
+	padding: 2px;
+}
+.select,
+#content .center ul li a:hover{
+	background-color: red;
+}
+#content .center p{
+	width: 100%;
+	padding: 5px;
+}
+#content .center p a{
+	text-decoration: none;
+}
+#content .center #pager{
+	width: 100%;
+	overflow: hidden;
+	text-align:center;
+	
+}
+#content .center #pager ul{
+  padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+#content .center #pager ul li{
+	float: left;
+}
+#content .center #pager ul li a{
+	color: red;
+	text-decoration: none;
+	padding: 5px;
+	display: block;
+}
+#content .center #pager ul li a:hover{
+	background-color:#312f2f;
+}
+#content .center-news{
+	padding-top:10px;
+}
+#content .center-news .menu{
+	border: solid 1px;
+	margin-left: 20px;
+	padding: 5px 0px;
+}
+#content .center-news .menu ul{
+	width: 100%;
+	overflow: hidden;
+}
+#content .center-news .menu ul li{
+	width: 25%;
+	float: left;
+	list-style:none;
+}
+#content .center-news .menu ul li a{
+	text-decoration: none;
+	
+	
+}
+.select,
+#content .center-news .menu ul li a:hover{
+	background-color: red;
+}
+#content .center .sab{
+/* 	width: 100%; */
+	border: solid 1px;
+	padding: 10px;
+	margin-left: 20px;
+}
+#content .center .sab h5{
+	color: #005fbf;
+	font-size: 17px;
+}
+#content .center .sab img{
+	width: 200px;
+	/*padding-top: 10px;*/
+	float: left;
+	padding:10px;
+}
+#content .center .sp{
+	padding-top:10px;
+}
+#content .center .sp .sp1{
+	border: solid 1px;
+	margin-left: 20px;
+	padding: 5px 0px;
+}
+#content .center .sp .sp1 ul{
+	width: 100%;
+	overflow: hidden;
+}
+#content .center .sp .sp1 ul li{
+	width: 25%;
+	float: left;
+	list-style:none;
+}
+#content .center .sp .sp1 ul li a{
+	text-decoration: none;
+	
+	
+}
+.select,
+#content .center .sp .sp1 ul li a:hover{
+	background-color: red;
+}
+#content .center .sp .sp2{
+/* 	width: 100%; */
+	border: solid 1px;
+	padding: 10px;
+	margin-left: 20px;
+}
+#content .center .sp .sp2 h5{
+	color: #005fbf;
+	font-size: 17px;
+}
+#content .center .sp .sp2 img{
+	width: 200px;
+	float: left;
+	padding:10px 20px 10px 10px;
+}
+#content .center .sp .sp2 p{
+	padding-bottom: 50px;
+}
+#content .center .dtac{
+	padding-top:10px;
+}
+#content .center .dtac .dtac1{
+	border: solid 1px;
+	margin-left: 20px;
+	padding: 5px 0px;
+}
+#content .center .dtac .dtac1 ul{
+	width: 100%;
+	overflow: hidden;
+}
+#content .center .dtac .dtac1 ul li{
+	width: 25%;
+	float: left;
+	list-style:none;
+}
+#content .center .dtac .dtac1 ul li a{
+	text-decoration: none;
+	
+	
+}
+.select,
+#content .center .dtac .dtac1 ul li a:hover{
+	background-color: red;
+}
+#content .center .dtac .dtac2{
+/* 	width: 100%; */
+	border: solid 1px;
+	padding: 10px;
+	margin-left: 20px;
+}
+#content .center .dtac .dtac2 h5{
+	color: #005fbf;
+	font-size: 17px;
+}
+#content .center .dtac .dtac2 img{
+	width: 200px;
+	/*padding-top: 10px;*/
+	float: left;
+	padding:10px;
+}
+#content .center .tdung{
+	padding-top:10px;
+}
+#content .center .tdung .tdung1{
+	border: solid 1px;
+	margin-left: 20px;
+	padding: 5px 0px;
+}
+#content .center .tdung .tdung1 ul{
+	width: 100%;
+	overflow: hidden;
+}
+#content .center .tdung .tdung1 ul li{
+	width: 25%;
+	float: left;
+	list-style:none;
+}
+#content .center .tdung .tdung1 ul li a{
+	text-decoration: none;
+	
+	
+}
+.select,
+#content .center .tdung .tdung1 ul li a:hover{
+	background-color: red;
+}
+#content .center .tdung .tdung2{
+/* 	width: 100%; */
+	border: solid 1px;
+	padding: 10px;
+	margin-left: 20px;
+}
+#content .center .tdung .tdung2 h5{
+	color: #005fbf;
+	font-size: 17px;
+}
+#content .center .tdung .tdung2 img{
+	width: 200px;
+	/*padding-top: 10px;*/
+	float: left;
+	padding:10px;
+}
+#content .right{
+	width: 20%;
+	overflow: hidden;
+	float:left;
+	margin-left: 20px;
+	
+}
+#content .right1{
+	border: solid 1px #aad4ff;
+	
+}
+#content .right1 h4{
+	color: #fff;
+	background-color: #005169;
+/* 	font-size: 20px;  */
+	padding: 5px 20px;
+		
+}
+#content .right2{
+	border: solid 1px #aad4ff;
+	margin-top:20px;
+	
+}
+#content .right2 h4{
+	color: #fff;
+	background-color: #005169;
+/* 	font-size: 20px;  */
+	padding: 5px 20px;
+		
+}
+#content .right3{
+	border: solid 1px #aad4ff;
+	margin-top:20px;
+	
+}
+#content .right3 h4{
+	color: #fff;
+	background-color: #005169;
+/* 	font-size: 20px;  */
+	padding: 5px 20px;
+}
+#content .right4{
+	border: solid 1px #aad4ff;
+	margin-top:20px;
+	
+}
+#content .right4 h4{
+	color: #fff;
+	background-color: #005169;
+/* 	font-size: 20px;  */
+	padding: 5px 20px;
+}
+#footer{
+	width: 100%;
+	overflow: hidden;
+	background-color: #005169;
+	margin: 10px;
+}
+#footer h3{
+	color: #fff;
+	text-align: center;
+}
